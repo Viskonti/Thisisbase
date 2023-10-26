@@ -519,7 +519,7 @@ td:nth-last-child(1) {
    color:white;
     
     background-color: #f2eee3;
-    border-top: 1px solid #e5e5e5;
+
   }
   
   .footer > * {
@@ -707,7 +707,77 @@ td:nth-last-child(1) {
 .titles img {
     width:20%;
 }        
+.anketa {
 
+    background-color: #1e272e;
+    
+    min-height: 850px;
+  color: white;
+
+}
+.anketa p {
+    color:white;
+    text-align: center;
+}
+.decor {
+    position: relative;
+    max-width: 600px;
+    margin: 50px auto 0;
+    background: rgba(37, 37, 37, 1);
+    border-radius: 10px;
+  }
+  
+  .circle {
+    position: absolute;
+    bottom: 80px;
+    left: -55px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: white;
+  }
+  .form-inner {
+    padding: 50px;
+  }
+  .form-inner input, .form-inner textarea {
+    display: block;
+    width: 100%;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    background: #E9EFF6;
+    line-height: 40px;
+    border-width: 0;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+  }
+  .form-inner input[type="submit"] {
+    margin-top: 30px;
+    background: rgb(222, 190, 11);
+    border-bottom: 4px solid rgb(217, 187, 13);
+    color: white;
+    font-size: 14px;
+  }
+  .form-inner textarea {
+    resize: none;
+  }
+  .form-inner h3 {
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #ffffff;
+    
+  }
+  .container__main H3{
+  position:relative;
+    text-align:center;
+    margin: 15px auto 0;
+    padding-top:30px;
+    
+  }
+  .form-inner H3{
+    padding-bottom: 30px;
+  }
 /************************************
             RESPONSIVE
 ************************************/
